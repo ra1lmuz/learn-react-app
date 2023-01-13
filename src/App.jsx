@@ -1,7 +1,7 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
-import Header from "./Header";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import './App.css'
+import Header from './components/Header/Header'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <h1>Hello</h1>
       <p>Paragraph</p>
     </div>
-  );
+  )
 }
 
 export default App;
